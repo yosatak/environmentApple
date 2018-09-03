@@ -15,7 +15,7 @@
  * under the License.
  */
 require_once('./LINEBotTiny.php');
-$channelAccessToken = getenv('APPSETTING_LINE_CHANNEL_ACCESS_TOKEN');
+$channelAccessToken = getenv('LINE_CHANNEL_ACCESS_TOKEN');
 error_log($channelAccessToken);
 $channelSecret = getenv('APPSETTING_LINE_CHANNEL_SECRET');
 error_log($channelSecret);
